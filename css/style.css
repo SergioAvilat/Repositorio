@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
+*{
+	font-family: 'Roboto+Condensed', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+h1{
+	color: orange;
+	font-size: 3rem;
+}
+h2,h3{
+	color: #400101;
+	font-size: 2rem;
+
+}
+
+legend{
+	font-size: 20px;
+}
+body{
+	background-color: #F2C2C2;
+	overflow-x: hidden;
+	background-attachment: fixed;
+}
+
+p{
+	color:#400101;
+	line-height: 2rem;
+	font-size: 1.6rem;
+}
+
+.exept{
+	color:orange;
+}
+
+
+
+.botonera {
+		background-color: rgba(242, 148, 148, 1);
+		/*position*/
+		position: sticky;
+		top: 0;
+		/*padding*/
+		padding: 10px 30px;
+		/****display flex****/
+		display: flex;
+		justify-content: column;
+		align-items: center;
+	}
+
+	.botonera img{
+		width: 200px;
+		margin-bottom: 20px;
+	}
+
+
+	.botonera ol{
+		/****display flex****/
+		display: flex;
+	}
+
+	.botonera ol li{
+		list-style: none;
+		margin-right: 20px;
+	}
+
+		.botonera ol li a{
+			font-size: 1.8rem;
+			text-decoration: none;
+			color: ##400101;
+				background-image: linear-gradient(currentColor, currentColor);
+   				background-position: 0% 100%;
+    			background-repeat: no-repeat;
+    			background-size: 0% 2px;
+    			transition: background-size .3s;
+		}
+		
+
+		/*hover*/
+		.botonera ol li a:hover{
+			color: black;
+			font-weight: 600;
+			background-size: 100% 2px;
+		}
+	
+
+/*hover*/
+
+
+
+.encabezado__box--white{
+	text-align: center;
+	background-color: white;
+	/*padding*/
+	padding: 5px 0;
+	width: 100vw !important;
+
+}
+
+
+.img-flor{
+	width:100%;
+
+}
+
+.cuadro{
+	width: 90%;
+	height: auto;
+	margin: 20px auto;
+	border: solid 4px #F29F05;
+	background-color: #D9CB0D; 
+
+}
+
+p{
+	font-size: 15px;
+}
+
+.orden{
+	display: inline-block ; 
+	margin-left: 30px; 
+}
+
+
+article p{
+	color: #400101;
+}
+
+footer{
+	background-color: #F29494;
+}
+
+a {
+	color: #400101;
+	font-size: 20px;
+	text-decoration: none; /*eliminar subrayado*/
+}
+
+a:hover{
+	color: lightpink;
+}
+
+.btnXl{
+	width:50%;
+	height: 30px;
+	background-color: white;
+	color: orange;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-left: 50px;
+	font-size: 2rem;
+	/****display flex****/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.nav__item{
+	display: inline;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-left{
+	text-align: left;
+
+}
+.text-italic{
+	text-align: italic;
+}
+.text-bold{
+	text-align: bold;
+}
+
+.spacing3{
+	word-spacing: 3vw;
+}
+
+.bg{
+	background-color: #D9CB0D;
+}
+
+
+/*----------------------------------------------*/
+.pie{
+	padding:30px;
+	/****display flex****/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pie__titulo--md{
+	font-size: 2rem;
+}
+
+.pie__icon--sm{
+	width: 30px; 
+}
+
+/*----------------------------------------------*/
+#productos h1,
+#productos h2{
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 20px 0;
+	background-color: white;
+	font-family: Roboto, sans-serif;
+	margin: 20px 0;
+}
+
+#productos .galeria{
+	margin: 20px;
+	/****display flex****/
+	display: flex;
+	justify-content: space-between;
+}
+	#productos .galeria figure{
+		text-align: center;
+		width:30% ;
+	}
+
+		#productos .galeria figure img{
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			width: 100%;
+		}
+
+		#productos .galeria figure figcaption{
+			font-size: 2.0rem;
+			color: white ;
+			padding: 10px 0;
+			background-color: orange;
+		}
+
+		#productos .galeria p.price{
+			color: #676565;
+			padding-bottom: 10px;
+			background-color: white;
+		}
+
+/* productos destacados*/
+#productos .destacados article{
+	background-color: red ;
+	/****display flex****/
+	display: flex;
+	align-items: center;
+}
+
+	#productos .destacados article p{
+		font-size: 2rem;
+		line-height: 2.4rem;
+		padding: 50px;
+		margin: 20px auto;
+		color: white;
+	}
+
+	#productos .destacados article h3{
+		color: white;
+		font-size: 3rem;
+		padding-left: 50px;
+		font-family: Roboto, sans-serif;
+	}
+/*----------------------------------------------*/
+.nav2{
+	background-color: orange;
+	color:#676565 ;
+	padding: 20px 0;
+	font-size: 1.3rem;
+	line-height: 1.4em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/*----------------------------------------------*/
+.contenedor{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-template-areas: "nav" "header" "productos" "filtros" "aside" "footer";
+}
+
+#mainNav{
+	grid-area: nav ;
+}
+
+#header{
+	grid-area: header;
+}
+
+#filtros{
+	grid-area: filtros;
+}
+
+#productos{
+	grid-area: productos;
+}
+
+#aside{
+	background-color: orange;
+	padding: 20px 0;
+}
+
+#footer{
+	grid-area: footer;
+}
+
+.left{
+	text-align: left;
+}
+
+
+/*----------------------------------------------*/
+
+
+@media (min-width: 1024px){
+	.contenedor{
+		grid-template-columns: 20vw 70vw 10vw;
+		grid-template-rows: repeat(4, auto);
+		grid-template-areas: "nav nav nav" 
+		"header header header" 
+		"filtros productos aside" 
+		"footer footer footer";
+	}
+
+	#aside{
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		background-color: white;
+	}
+
+		#aside img{
+			width: 70%;
+		}
+
+	#productos .galeria figure{
+		width: 100%;
+	}
+
+	.botonera{
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+		.botonera img{
+			width: 250px;
+			margin-bottom: 0;
+		}
+}
+
+@media (min-width: 1200px){
+	#productos .galeria{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+		#productos .galeria figure{
+			width:30% ;
+		}
+
+}
+
+@keyframes headerAnimation{
+	0%{background-image: url(../img/portada.jpg)}
+	25%{background-image: url(../img/portada11.jpg)}
+	50%{background-image: url(../img/portada12.jpg)}
+	75%{background-image: url(../img/portada13.jpg)}
+	100%{background-image: url(../img/portada33.jpg)}
+}
+
+
+header{
+	height: 40vh;
+	animation-name:headerAnimation ;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	background-size: cover;
+}
+
