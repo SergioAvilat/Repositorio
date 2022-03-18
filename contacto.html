@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="encabezado">
+	<div class="encabezado__box--white">
+		<p>Pedidos al 987654213</p>			
+	</div>
+		<nav>
+			<a href="index.html">
+				
+				<img src="img/portada1.png" alt="Floreria Rosita">
+			</a>
+			<ol class="spacing3 text-center">
+				<li class="nav__item"><a href="index.html">Inicio</a></li>
+				<li class="nav__item"><a href="producto.html">Productos</a></li>
+				<li class="nav__item"><a href="promociones.html">Promociones</a></li>
+				<li class="nav__item"><a href="contacto.html">Contacto</a></li>
+				<li class="nav__item"><a href="nosotros.html">Nosotros</a></li>
+			</ol>
+		</nav>
+		<img src="img/portada.png" alt="Logo de la Floreria Rosita " class="img-flor ">
+		<h1 class="text-bold text-center">Como Contactarnos</h1>
+
+	</header>
+	<main>
+		<section>
+			<div>
+				<h2 class="text-bold">Una flor para otra Flor</h2>
+					<p>Somos una empresa con mas de 15 años en el rubro de las flores.
+					Bridamos un servicio completo para todo tipo de eventos Cuidando cada detalle de su pedido brindando sugerencias.
+					Cuidando la calidad de cada una de nuestras flores.</p>
+				<form action="envio.php" method="post" id="contacto">
+					<fieldset class="cuadro">
+						<legend>Datos personales</legend>
+						<label for="nombre">Nombre y apellido</label>
+						<input type="text" placeholder="Nombre" name="nombre" id="nombre"> <br>
+
+						<label for="nombre">Email</label>
+						<input type="text" placeholder="Email" name="nombre" id="nombre"> <br>
+					</fieldset>
+
+
+					<fieldset class="cuadro">
+						<legend>Info del pedido</legend>
+						<label for="velas">Tulipanes</label>
+						<input type="checkbox" value="velas" id="velas" name="velas">
+						
+						<label for="sales">Minirosas</label>
+						<input type="checkbox" value="sales" name="sales" id="sales">
+
+						<label for="sales">Girasoles</label>
+						<input type="checkbox" value="sales" name="sales" id="sales">
+
+					</fieldset>
+					<fieldset class="cuadro">
+						<legend>Info para el envio</legend>
+						<label for="domicilio">Envío a domicilio</label>
+						<input type="radio" name="envio" value="domicilio" id="domicilio">
+						<label for="local">Retiro en el local</label>
+						
+						<input type="radio" name="envio" value="local" id="local">
+						
+					</fieldset>
+
+					<div class="cuadro">
+						<br><br>
+						<label for="mensaje">Deja tu mensaje</label><br>
+						<textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="deja tu mensaje"></textarea>
+						<br>
+						<input type="submit" value="Enviar">
+						<input type="reset" value="Cancelar">
+						<input type="button" value="no hace nada">
+
+						
+					</div>
+
+				</form>
+
+			</div>
+		</section>
+	</main>
+	<footer class="pie">
+		<h3 class="pie__titulo--md">Seguinos en nuestras redes sociales</h3>
+		<a href="https://facebook.com" target="_blank">
+			<img src="img/facebook.png" alt="Siguenos en facebook" class="pie__icon--sm">
+		</a>
+		<a href="https://twitter.com" target="_blank">
+			<img src="img/twitter.png" alt="Siguenos en twitter" class="pie__icon--sm">
+		</a>
+
+		<div>
+			<h2>Contacto</h2>
+			<p>987654321 - Av. Valentín Ramón</p>
+		</div>
+
+	</footer>
+
+
+	
+</body>
+</html>
